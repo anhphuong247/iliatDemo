@@ -1,0 +1,16 @@
+@font-face {
+    font-family: agencyfontbold;
+    src: url(../fonts/SVN-Agency-FB-bold.ttf);
+}
+@font-face {
+    font-family: agency;
+    src: url(../fonts/SVN-Agency-FB.ttf);
+}
+@font-face {
+    font-family: giddyup;
+    src: url(../fonts/HLT_GiddyupStd.ttf);
+}
+@font-face {
+    font-family: pepita;
+    src: url(../fonts/HLT_PepitaScript.ttf);
+}

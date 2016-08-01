@@ -1,0 +1,35 @@
+.arrow-down{
+    display: none;
+}
+.banner-block{
+    background: center center no-repeat;
+    background-image: url('/img/banner.png');
+    background-size: cover;
+    text-align: center;
+    min-height: 50vh;
+    
+   
+}
+@media(min-width:1080px){
+.banner-block{
+    min-height: 100vh;
+    position: relative;
+}
+.arrow-down{
+    display: block;
+    position: absolute;
+    bottom: 90px;
+    cursor: pointer;
+    left: 50%;
+    transform: translate(-50%,0);
+}
+.arrow-down img{
+    animation: changesize 1.3s infinite;
+    transition: color 0.7s ease;
+}
+@keyframes changesize {
+    0%   { transform: scale(0.8); }
+    25%  { transform: scale(1); line-height: 10px; }
+    100% { transform: scale(0.8); color: #000; }
+}
+}

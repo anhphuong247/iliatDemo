@@ -1,0 +1,27 @@
+.black-bg {
+    background: #4d4d4d;
+}
+.footer {
+    padding: 0 15px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+@media(min-width:650px) {
+
+.public{
+    display: none;
+}
+}
+@media(min-width: 1180px) {
+.footer {
+    flex-direction: row;
+    
+    text-align: left;
+}
+.footer-block {
+    padding-top: 10px;
+    padding: 10px 90px;
+}
+}

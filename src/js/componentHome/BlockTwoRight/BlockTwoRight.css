@@ -1,0 +1,45 @@
+.seperate{
+    display: inline-block;    
+    height: 290px;
+    border: 1px solid #000000;
+}
+.student-parameter h3 p{
+    margin: 0;
+    padding: 0;
+    font-weight: 600;
+    font-size: 1.9rem;
+}
+.student-parameter h3 {
+    margin: 0;
+    padding: 0;
+    font-weight: 600;
+    font-size: 1.9rem;
+}
+.student-parameter h2 p{
+    margin: 0;
+    padding: 0;
+    font-weight: 600;
+    font-size: 2.9rem;
+}    
+.student-parameter{
+    display: inline-block;
+    padding: 0 35px;
+    padding-right: 100px;
+    position: relative;
+    top:-20px;    
+}
+.line{
+    padding: 30px 0;
+}
+.line h3 span p{
+    font-size: 2.9rem;
+    margin-bottom: 5px;
+}
+.word-blue{
+    font-family: agencyfontbold;
+    color: #00a1ed;
+    font-size: 29px;    
+}
+.Right{
+   display: inline-block;
+}

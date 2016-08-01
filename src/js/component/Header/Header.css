@@ -1,0 +1,11 @@
+.header {
+    border-bottom: 1px solid #a1a1a1;
+    padding: 18px 20px;
+    position: relative;
+}
+@media(min-width: 1180px) {
+
+.header {
+    padding: 16px 110px;
+}
+}

@@ -1,0 +1,64 @@
+@media(min-width: 1080px){
+.slick{
+    padding: 0 20px;
+    max-width: 50%;
+    display: inline-block;
+}
+.slick-prev:before,
+.slick-next:before {
+    color: black;
+}
+.slick-dots, 
+ slick-active{
+    position: relative;
+    left: 200px;
+}
+.slick-dots li button{
+    background-color: #a1a1a1;
+    border-radius:100%; 
+    outline: 0px none;
+    border: 0px none;
+    
+}
+.slick-dots li button:hover{
+    background-color: #00a1ed;
+} 
+.slick-dots .slick-active button,
+.slick-dots button:hover{
+    opacity: 1;
+}
+.slick-dots li.slick-active button{
+    background-color: #00a1ed;
+  
+}
+.student-thinking-content{
+    padding: 0 10px;
+    display: inline-block;
+}
+.student-thinking-content p{
+    font-weight: 600;
+    font-size: 1.5rem;  
+    text-align:right;
+    margin-top: 5px;
+
+}
+.name-student{
+    text-align: right;
+}
+.name-student h2 p{
+    font-size: 2.4rem;
+    padding-top: 10px;
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+.name-student h3 p{
+    margin-top: -10px;
+    font-size: 2.4rem;
+    margin-bottom: 30px;
+}
+.name-student img{
+    float: right;
+    border-radius: 100%;
+    margin-left: 40px;
+}
+}

@@ -1,0 +1,31 @@
+.course-block h1{
+    font-family: agencyfontbold;
+    text-align:center; 
+    margin-top: 10px;
+    font-size: 3rem;
+    
+}
+.courses{
+    text-align: center;
+}
+.courses img{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+@media(min-width:1080px){
+    
+.course-block h1{
+    text-align: center;
+    font-size:  5.8rem;
+}
+.courses{
+    padding: 0px 130px 30px;
+}
+
+.courses img{
+    margin-left:15px;
+    width: 23%;
+
+    
+}
+}

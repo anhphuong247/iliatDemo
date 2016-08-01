@@ -1,0 +1,95 @@
+.banner-block{
+    background: center center no-repeat;
+    background-image: url('/img/bannerIelts.png');
+    background-size: cover;
+    text-align: center;
+    padding: 90px 0;
+}
+
+.banner-block p {
+    color: #000000;
+}
+.banner-block button {
+    margin-top: 30px;
+    padding: 15px 10px;
+    background-color: #5098cf;
+    border: 1px solid #5098cf;
+    color: #fff;
+    border: 0 none;
+    outline: 0 none;
+    cursor: pointer;
+    border-radius: 8px;
+    
+}
+.banner-block button:hover{
+    background-color: #5098cf;
+}
+.banner-block button:active{
+    background-color: #5098cf;
+}
+.down-line{
+    font-size: 3.8rem;
+    color: #5098cf;
+    font-family: agencyfontbold;
+}
+
+.upper-line{
+    font-weight: 600;
+    font-size: 3.8rem;
+    color: #5098cf;
+    font-family: agencyfontbold;
+   
+}
+
+.arrow-down {
+    display: none;
+}
+@media(min-width: 1180px) {
+
+.arrow-down {
+    display: block;
+    margin-top: 100px;
+    cursor: pointer;
+    
+}
+.down-line{
+    color: #5098cf;
+    font-family: agencyfontbold;
+     font-size: 5.8rem;
+}
+.banner-block button:hover{
+    background-color: #5098cf;
+}
+.banner-block button:active{
+    background-color: #5098cf;
+}
+.upper-line{
+    font-weight: 600;
+    color: #5098cf;
+    font-family: agencyfontbold;
+    position: relative;
+    left: -180px;
+    font-size: 5.8rem;
+}
+    
+.arrow-down img{
+    animation: changesize 1.3s infinite;
+    transition: color 0.7s ease;
+}    
+@keyframes changesize {
+    0%   { transform: scale(0.8); }
+    25%  { transform: scale(1); line-height: 10px; }
+    100% { transform: scale(0.8); color: #000; }
+}
+.banner-block button{
+    margin-top: 100px;
+    padding: 25px 45px;
+    background-color: #5098cf;
+    border: 1px solid #5098cf;
+}
+.banner-block button:hover{
+    background-color: #ffffff;
+    color: #000000;
+    border: 1px solid #5098cf;
+}    
+}

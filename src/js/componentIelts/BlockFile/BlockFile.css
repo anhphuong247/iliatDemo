@@ -1,0 +1,81 @@
+.course-ads{
+    font-size: 1.5rem;
+    font-weight: 300;
+    text-align: center;
+    margin-top: 50px;
+}
+.course-input-group{
+    margin: 0 auto;
+    text-align: center;
+}
+.btn-button-register{
+    width: 280px;
+    font-size: 1.8rem;
+    padding: 10px 20px;
+    background-color: #5098cf;
+    border: 1px solid #5098cf;
+    color: #ffffff;
+    border-radius: 8px;
+    
+}
+.btn-button-register:hover{
+    border: 1px solid #5098cf;
+    color: #000000;
+    background-color: #ffffff;    
+}
+.btn-button-noregister{
+    width: 280px;
+    font-size: 1.8rem;
+    text-align: center;
+    margin-top: 15px;
+    border-radius: 8px;
+    color: #252525;
+    background-color: #ffffff;
+    border: 2px solid #000000;
+}
+.btn-button-noregister:hover{
+    background-color: #000000;
+    color: #ffffff;
+    border: 2px solid #000000;
+} 
+@media(min-width: 1180px){
+ .btn-button-noregister{
+    color: #252525;
+    border: 2px solid #000000;
+    background-color: #ffffff;
+    width: 400px;
+    display: block;
+    text-align: center;
+    padding: 8px 25px;
+    border-radius: 10px;
+    margin-top: -46px;
+    margin-left: 480px;
+}
+.btn-button-noregister:hover{
+    background-color: #000000;
+    color: #ffffff;
+    border: 2px solid #000000;
+}    
+.course-input-group{
+    margin: 0 auto;
+ 
+}    
+.course-ads{
+    padding: 35px 0;
+    font-size: 2.4rem;
+    font-weight: 500;
+    margin-top: 10px;
+}
+.course-input-group{
+    margin-top: -30px;
+    text-align: left;
+}
+.btn-button-register{
+    width: 400px;
+    position: relative;
+    font-size: 1.9rem;
+    padding: 10px 50px;
+    display:inline-block;
+    border: 1px solid #5098cf;
+}
+}

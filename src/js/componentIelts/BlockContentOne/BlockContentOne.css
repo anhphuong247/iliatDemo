@@ -1,0 +1,35 @@
+
+.item-block {
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+.circle {
+    width: 80px;
+    height: 80px;
+    background: #5098cf;
+    border-radius: 100%;
+    display: inline-block;
+    float: left;
+}
+.circle img {
+    margin: auto;
+    margin-top: 17px;
+    margin-left: 21px;
+}
+.item-content {
+    margin-left: 100px;
+}
+.item-content span p strong{
+    margin-left: 15px;
+}
+.item-content h4 {
+    color: #5098cf;
+    margin: 0;
+}
+.item-content p {
+    margin: 0;
+    font-weight:300;   
+}
+strong {
+    font-weight: 700;
+}

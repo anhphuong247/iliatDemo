@@ -1,0 +1,27 @@
+ .block-content {
+     padding: 18px 20px;
+     background: #e6e6e6;
+}
+.teacher-block{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    flex-direction: column;
+}
+@media(min-width:1080px) {
+.block-content {
+    padding-left: 340px;
+    padding-top: 50px;
+    position: relative;
+}
+
+.block-content h1{
+    font-family: agencyfontbold;
+}
+
+.teacher-block{
+    flex-direction: row;
+}
+
+}

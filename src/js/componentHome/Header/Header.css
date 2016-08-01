@@ -1,0 +1,12 @@
+.header{
+    border-bottom: 1px solid #a1a1a1;
+    padding: 18px 20px;
+    
+}
+@media(min-width:1080px){
+.header{
+    padding: 0px 100px;
+    border: 1px solid #ffffff;
+    z-index: 100;
+}
+}

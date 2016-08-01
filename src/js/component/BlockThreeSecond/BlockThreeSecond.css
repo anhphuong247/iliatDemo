@@ -1,0 +1,64 @@
+.title_where {
+    font-weight: 600;
+    padding-bottom: 5px;
+    margin-top: 30px;
+}
+.smail-arrow img{
+    width: 14px;
+   
+}
+.smail-arrow{
+    margin-left: 20px;
+    margin-top: 40px;
+    
+}
+.skill-list img{
+    vertical-align: bottom;
+    margin-right: 20px;
+    float: left;
+    white-space: nowrap;
+}
+.skill-list li{
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+@media(min-width:1080px) {
+.title_where {
+    font-size: 2.4rem;
+    font-weight: 600;
+}
+.skill-item span p{
+    font-size: 1.8rem;
+    padding-right: 190px;
+}
+.skill-item strong{
+    display: block;
+    font-size: 1.8rem;
+}
+.smail-arrow img{
+    width: 14px;
+    margin-top: 6px; 
+}
+.smail-arrow{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.skill-item{
+
+}
+
+.skill-list li{
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.skill-list strong p{
+    color: #31c36b;
+    margin-right: 10px;
+    font-size: 1.8rem;
+    float: left;
+}
+    
+    
+}

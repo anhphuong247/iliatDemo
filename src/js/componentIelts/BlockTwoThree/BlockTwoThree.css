@@ -1,0 +1,53 @@
+.teacher-item{
+    margin-top: 20px;
+    text-align: center;
+}
+.teacher-item img{
+    
+   margin:0px auto;
+}
+.teacher-detail {
+    text-align: left;
+
+}
+.teacher-detail p{
+    margin: 0;
+    font-weight: 600;
+    
+}
+.teacher-information h4 {
+    margin: 0;
+    font-weight: 600;
+    margin-top: 20px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+@media(min-width: 1180px) {
+.teacher-information h4 {
+    margin: 0;
+    font-weight: 600;
+    margin-top: 20px;
+    text-align: center;
+    margin-bottom: 10px;
+    
+}
+.teacher-detail {
+    text-align: left;
+}
+.teacher-detail p{
+    font-weight: 600;
+     margin: 0 auto;
+}
+.teacher-item{
+    display: inline-block;
+	flex: 0 1 30%;
+	text-align: center;
+	max-width: 28%;
+	margin-top: 10px;
+    position: relative;
+   
+}
+.teacher-item img{
+	margin: 0 auto;
+}
+}

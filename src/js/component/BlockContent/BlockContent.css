@@ -1,0 +1,27 @@
+.block-content {
+    padding: 20px 20px;
+}
+.block-content h1{
+    font-family:agencyfontbold;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.block-content p{
+    font-weight: 600;
+}
+@media(min-width: 1180px) {
+.block-content {
+    padding: 50px 0px;
+    margin-left: 340px;
+    margin-right: 135px;
+}
+.block-content p{
+    font-weight: 600;
+}
+.block-content h1{
+    font-family:agencyfontbold;
+    margin:0 0 30px 0;
+    
+}
+}

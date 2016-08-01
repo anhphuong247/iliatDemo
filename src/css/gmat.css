@@ -1,0 +1,75 @@
+* {
+    box-sizing: border-box;
+}
+html {
+    font-weight: 300;
+}
+body {
+    font: 10px/1.4 'Source Sans Pro', sans-serif;
+    font-size: 1.4rem;
+}
+
+h1{
+	font-size: 2.4rem; 
+	margin: 0;
+}
+
+h2{
+	font-size: 3.8rem;
+}
+
+h3{
+	font-size: 2.9rem;
+}
+
+h4{
+	font-size: 2.4rem;
+}
+
+h5{
+	font-size: 1.8rem;
+}
+
+p{
+	font-size: 1.5rem;
+}
+strong {
+    font-weight: 700;
+}
+li {
+    list-style: none;
+}
+ul,
+li {
+    margin: 0;
+    padding: 0;
+}
+button h1,
+button h2,
+button h3,
+button h4,
+button h5 {
+    margin: 0;
+    font-weight: 300;
+}
+
+
+@media(min-width: 1180px) {
+h1{
+  	font-size: 5.8rem;
+  }
+
+  h5{
+  	font-size: 2.4rem;
+  }
+
+  p{
+  	font-size: 1.5rem;
+  }
+  .slick-dots, 
+  slick-active{
+    position: relative;
+    left: 240px;
+}
+
+}

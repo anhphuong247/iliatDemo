@@ -1,0 +1,13 @@
+#Gmat .slick-dots li button:before{
+ 	color: #31c36b;
+ 	font-size: 20px;
+}
+#Home .slick-dots li button:before{
+	color: #00a1ed;
+	font-size: 15px;
+}
+#Ielts .slick-dots li button:before{
+	color: #5098cf;
+	font-size: 20px;
+}
+

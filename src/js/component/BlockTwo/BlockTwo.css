@@ -1,0 +1,38 @@
+.block-content {
+    padding: 18px 20px;
+    background: #e6e6e6;
+}
+.block-content h1{
+	 font-family:agencyfontbold;
+    font-weight: 700;
+    text-align: center;
+}
+
+@media(min-width: 1180px) {
+.block-content {
+	padding: 50px 100px;
+	background-color: #e6e6e6;
+}
+.block-content h1{
+	text-align: center;
+}
+.teacher-block {
+    margin-top: 50px;
+    margin-left: 190px;
+}
+.slick-dots{
+    display: block;
+    width: 8px;
+    height: 8px;
+    font-size: 0;
+    border-radius: 100%;
+    background-color:red;
+    opacity: 0.5;
+    outline: 0 none;
+    border: 0 none;
+    padding: 0;
+    cursor: pointer;
+}
+
+
+}

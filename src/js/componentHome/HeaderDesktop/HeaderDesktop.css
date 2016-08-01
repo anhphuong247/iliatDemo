@@ -1,0 +1,83 @@
+.desktop-nav{
+    display: none;
+}
+@media(min-width:1080px){
+.desktop-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+}
+.logo img{
+    max-width: 150px;
+    padding: 20px 0;
+    margin: 0;
+}
+.logo{
+    display:inline-block;
+}    
+
+.menu-group h3{
+    font-weight: 500;
+    display: inline-block;
+    color: #000000;
+}
+
+.menu-group a{
+    margin: 0 15px;
+    padding: 0px 10px;
+}
+.menu-group{
+    margin-left: 50px;
+}
+.menu-group h3:hover{
+    color: #4f7dbf;
+}
+
+.menu-course{
+    position: relative;
+    display: inline-block;
+}    
+.menu-course-dropdown{
+    display: none;
+    position: absolute;
+    background-color:#ffffff;
+    min-width: 180px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 101;
+    left: 50px;
+}
+
+.menu-course-dropdown a{
+    color: #000000;
+    padding: 15px 25px;
+    display: block;
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-decoration: none;
+    
+}
+
+.menu-course-dropdown a:hover{
+    border-bottom: 1px solid #000000;
+    color: #5484c3;
+}
+
+
+.menu-course:hover .menu-course-dropdown{
+    display: block;        
+}
+.menu-course button{
+    outline: 0px none;
+    border: 0px none;
+    border: 1px solid #ffffff;
+    background-color: #ffffff;
+    min-width: 180px; 
+    margin-left: 60px;
+}
+.menu-course button:hover{
+    color:#5484c3;
+    border: 1px solid #ffffff;
+
+}
+}
