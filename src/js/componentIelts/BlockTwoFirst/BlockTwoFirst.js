@@ -32,7 +32,7 @@ export default class BlockTwoFirst extends React.Component{
         var Comments = this.state.data.map((comment)=>{
             return(
                 <div key={comment.id} className={styles['teacher-item']}>
-                    <div >
+                    <div>
                         <img src={comment.url}/> 
                         <div className={styles['teacher-information']}>
                             <h4 className={styles['teacher-name']} dangerouslySetInnerHTML={this.rawMarkup(comment.FirstLine)}></h4>

@@ -73,7 +73,9 @@ export default class BlockFourFirst extends React.Component{
               )
             })
         return(
+              <div>
                 <div id="slider">{Comments}</div>
+              </div>
         ) 
     }
 }

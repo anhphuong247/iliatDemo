@@ -24,7 +24,7 @@
      margin-bottom: 20px;
     
 }
-@media(min-width: 1180px) {
+@media(min-width: 1024px) {
     .contact{
         margin: 50px 0 0 80px;
     }

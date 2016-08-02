@@ -33,12 +33,11 @@ export default class BlockThreeFirst extends React.Component{
         console.log("data:" + this.state.data);
         var Comments = this.state.data.map((comment)=>{
         return(
-               <div key={comment.id}>
+               <div key={comment.id} >
                     <div className={styles['block-content']}>
                             <h1 dangerouslySetInnerHTML={this.rawMarkup(comment.Title)}></h1>
                             <p className={styles['title_where']} dangerouslySetInnerHTML={this.rawMarkup(comment.TitleLitter)}></p>
-                    <div class="fade_left">
-                      <div className={styles['third_line']}>
+                        <div className={styles['third_line']}>
                             <h4 dangerouslySetInnerHTML={this.rawMarkup(comment.Total)}></h4>
                             <div className={styles.past}>
                                 <div className={styles.headboard}></div>
@@ -49,10 +48,8 @@ export default class BlockThreeFirst extends React.Component{
                             </div>
                             <div className={styles.separator}></div>
                             <button className={styles.schedule}>Lịch học Ielts 2016</button>
-                        </div>
-                    </div>    
-                <p className={styles['title_where']}>Học GMAT tại ILIAT</p>
-                    <div class="fade_right">
+                        </div>  
+                         <p className={styles['title_where']}>Học GMAT tại ILIAT</p>
                         <div className={styles.instruction}>
                             <div className={styles.bullet}>
                                 <img src="img/1ielts.png"/>
@@ -73,8 +70,6 @@ export default class BlockThreeFirst extends React.Component{
                                 </div>
                             </div>
                         </div>
-                     </div>   
-
                 </div>    
             </div>
            )

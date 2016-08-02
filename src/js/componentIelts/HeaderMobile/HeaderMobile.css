@@ -70,7 +70,7 @@
     transition: all .25s ease-in, width .25s ease-in .05s;
     pointer-events: all;
     }
-    .dropdown-item{
+.dropdown-item{
     text-align: right;
     padding: 10px 30px;
     width: 100%;
@@ -78,7 +78,7 @@
     cursor: pointer;
     background: #ffffff;
 }
-@media(min-width: 1180px) {
+@media(min-width: 1024px) {
 .mobile-nav{
     display: none;
 }

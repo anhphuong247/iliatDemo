@@ -7,7 +7,7 @@
     font-weight: 700;
     text-align: center;
 }
-@media(min-width: 1180px) {
+@media(min-width: 1024px) {
 .block-content {
 	padding: 50px 100px;
 	background-color: #e6e6e6;

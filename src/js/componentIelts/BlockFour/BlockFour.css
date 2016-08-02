@@ -9,7 +9,7 @@
     align-content: center;
     flex-direction: column;
 }
-@media(min-width:1080px) {
+@media(min-width:1024px) {
 .block-content {
     padding-left: 340px;
     padding-top: 50px;

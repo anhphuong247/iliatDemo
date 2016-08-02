@@ -4,7 +4,9 @@ export default class BlockThree extends React.Component{
     render(){
       
         return(
-            <BlockThreeFirst/> 
+        	<div class="fade_scale">
+            	<BlockThreeFirst/> 
+        	</div>
         );
     }
 }

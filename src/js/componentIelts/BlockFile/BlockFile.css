@@ -24,7 +24,8 @@
     background-color: #ffffff;    
 }
 .btn-button-noregister{
-    width: 280px;
+    max-width: 68%;
+    padding:10px 20px;
     font-size: 1.8rem;
     text-align: center;
     margin-top: 15px;
@@ -37,8 +38,35 @@
     background-color: #000000;
     color: #ffffff;
     border: 2px solid #000000;
+}
+
+@media (min-width: 768px){
+ .btn-button-noregister{
+    color: #252525;
+    border: 2px solid #000000;
+    background-color: #ffffff;
+    max-width: 50%;
+    text-align: center;
+    border-radius: 10px;
+    margin-left: 10px;
+ }
+.course-input-group{
+    margin-top: -30px;
+}
+.btn-button-register{
+    width: 50%;
+    position: relative;
+    font-size: 1.9rem;
+    padding: 10px 50px;
+    display:inline-block;
+    border: 1px solid #5098cf;
+}
+.course-input-group{
+    margin: 0 auto;
+    text-align: left;
 } 
-@media(min-width: 1180px){
+} 
+@media(min-width: 1024px){
  .btn-button-noregister{
     color: #252525;
     border: 2px solid #000000;
@@ -48,7 +76,6 @@
     text-align: center;
     padding: 8px 25px;
     border-radius: 10px;
-    margin-top: -46px;
     margin-left: 480px;
 }
 .btn-button-noregister:hover{

@@ -51,8 +51,7 @@ export default class BlockTwoFirst extends React.Component{
         console.log("data:" + this.state.data);
         var Comments = this.state.data.map((comment)=>{
             return(
-                <div key={comment.id} className={styles['teacher-item']}>
-                    <div >
+                    <div key={comment.id}>
                         <img src={comment.url}/> 
                         <div className={styles['teacher-information']}>
                             <h4 className={styles['teacher-name']} dangerouslySetInnerHTML={this.rawMarkup(comment.FirstLine)}></h4>
@@ -61,12 +60,13 @@ export default class BlockTwoFirst extends React.Component{
                             </div>
                         </div> 
                     </div>
-                </div>
             )
         })
         
         return(
-            <div id="teacher-block">{Comments}</div>
+            <div className={styles['teacher-item']}>
+                <div id="teacher-block">{Comments}</div>
+            </div>    
         ) 
     }
 }
