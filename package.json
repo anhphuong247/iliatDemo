@@ -25,7 +25,10 @@
   },
   "devDependencies": {},
   "scripts": {
-    "dev": "webpack-dev-server --content-base src --inline --hot"
+    "dev": "webpack-dev-server --content-base src --inline --hot",
+    "package": "webpack --config webpack.config.production.js --progress --colors",
+    "deploy": "npm run package && [your deployment script]"
+
   },
   "author": "",
   "license": "ISC"
