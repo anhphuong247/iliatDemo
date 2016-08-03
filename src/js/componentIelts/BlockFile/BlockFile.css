@@ -77,6 +77,8 @@
     padding: 8px 25px;
     border-radius: 10px;
     margin-left: 480px;
+    position: relative;
+    top: -60px;
 }
 .btn-button-noregister:hover{
     background-color: #000000;
@@ -94,7 +96,6 @@
     margin-top: 10px;
 }
 .course-input-group{
-    margin-top: -30px;
     text-align: left;
 }
 .btn-button-register{
