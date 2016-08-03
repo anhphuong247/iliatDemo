@@ -4,7 +4,7 @@ var path = require('path');
 var Remarkable = require('remarkable');
 module.exports = {
   context: path.join(__dirname, "src"),
-  devtool: debug ? "inline-sourcemap" : null,
+  devtool: debug ? "source-map" : null,
   entry: "./js/client.js",
   devServer: {
     inline:true,
@@ -27,18 +27,7 @@ module.exports = {
         }
     ]
   },
-    proxy: {
-      '/some/path*': {
-        target: 'https://other-server.example.com',
-        secure: false,
-          bypass: function(req, res, proxyOptions) {
-            if (req.headers.accept.indexOf('html') !== -1) {
-            console.log('Skipping proxy for browser request.');
-            return '/index.html';
-            }
-          }
-      }
-    },
+   
   output: {
     path: __dirname + "/src/",
     filename: "client.min.js"
@@ -46,6 +35,16 @@ module.exports = {
   plugins: debug ? [] : [
     new webpack.optimize.DedupePlugin(),
     new webpack.optimize.OccurenceOrderPlugin(),
-    new webpack.optimize.UglifyJsPlugin({ mangle: false, sourcemap: false }),
+    new webpack.optimize.UglifyJsPlugin({
+      minimize: true,
+      compress: {
+        warnings: false
+      }
+    }),
+    new webpack.DefinePlugin({
+      'process.env': {
+        'NODE_ENV': JSON.stringify('production')
+      }
+    })
   ],
 };
