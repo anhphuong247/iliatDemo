@@ -8,7 +8,7 @@ module.exports = {
   entry: "./js/client.js",
   devServer: {
     inline:true,
-    port: 1234
+    port: 3838
   },
   module: {
     loaders: [
