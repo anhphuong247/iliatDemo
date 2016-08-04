@@ -1,5 +1,5 @@
 .course-content-block{
-    padding: 0 10px 10px;
+    padding:0% 15%;
 }
 
 .course-item{
@@ -15,21 +15,18 @@
     color: #5098cf;
     font-family: agencyfontbold;
     text-align: center;
-    margin: 0;
     font-size: 4.7rem;
 }
 
-.course-item h3{
+.course-item h3 p{
     color: #5098cf;
     font-family: agencyfontbold;
     text-align: center;
-    margin: 0;
 }
 
 h3.price p{
     font-family: 'Source Sans Pro', sans-serif;
     color: #000000;
-    font-weight: 600;
     font-weight: 600;
     text-align: center;
     margin-top: 20px;
@@ -37,26 +34,26 @@ h3.price p{
     font-size: 3rem;
 }
 
+
 .content-more{
-    margin:0 0 0 10px;
+    margin: 0 auto;
 }
 
-.content-more p{
-    font-size: 1.8rem;
-    font-weight: 600;
-    padding: 0;    
-}
-
-.course-content-block h5{
+.course-content-block h5 p{
     margin: 20px 0 0 0;
     font-weight: 600;
     padding: 0;
+    font-size: 1.8rem;
 }
 .course-content-block p{
-    margin: 0;
-    font-weight: 600;
+    font-weight: 500;
 }     
-
+.content-more p{
+    text-align: left;
+    font-weight: 600;
+    padding: 0;
+    margin: 0 auto;   
+}
 .btn-course-item{
     width: 100%;
     border-radius: 0 0 7px 7px;
@@ -70,14 +67,30 @@ h3.price p{
     background-color: #ffffff;
     color: #000000;
 }
+@media (min-width: 600px){
+.course-content-block{
+    padding:0% 30%;
+}
+.course-content-block h5 p{
+    margin: 20px 0 0 0;
+    font-weight: 600;
+    padding: 0;
+    font-size: 1.8rem;
+}
+.content-more p{
+    font-size: 1.8rem;
+    font-weight: 600;
+    padding: 0;    
+}
 
+}
 @media(min-width:1024px) {
 .content-more{
     margin:0 0 0 10px;
 
 }
 .course-content-block{
-    padding: 0 10px 10px;
+    padding: 0 4% 0%;
 }
 .course-content-block p{
     font-weight: 300;

@@ -78,7 +78,7 @@
     cursor: pointer;
     background: #ffffff;
 }
-@media(min-width: 1180px) {
+@media(min-width: 1024px) {
 .mobile-nav{
     display: none;
 }

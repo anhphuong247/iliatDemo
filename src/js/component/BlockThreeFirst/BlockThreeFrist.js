@@ -6,7 +6,7 @@ export default class BlockThreeFirst extends React.Component{
       
         return(
            <div class="fade_left">
-              <div className={styles['third_line']}>
+                <div className={styles['third_line']}>
                     <h4>32 BUỔI</h4>
                     <div className={styles.past}>
                         <div className={styles.headboard}></div>
@@ -18,7 +18,7 @@ export default class BlockThreeFirst extends React.Component{
                     </div>
                     <div className={styles.separator}></div>
                     <button className={styles.schedule}>Lịch học GMAT 2016</button>
-            </div>
+                 </div>
             <p className={styles['title_where']}>Học GMAT tại ILIAT</p>
 
             <div className={styles.instruction}>

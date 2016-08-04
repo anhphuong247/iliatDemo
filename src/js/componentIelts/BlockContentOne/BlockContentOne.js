@@ -8,7 +8,6 @@ export default class BlockContentOne extends React.Component{
         }
     };
     componentDidMount() {
-      console.log("ajaxing");
       $.ajax({
         url: './json/jsonIelts/page-block-first.json',
         // dataType: 'json',

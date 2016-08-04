@@ -28,20 +28,20 @@ export default class BlockFile extends React.Component{
             return { __html: rawMarkup };
         }
         render(){
-          console.log("data:" + this.state.data);
-          var Comments = this.state.data.map((comment)=>{
+        console.log("data:" + this.state.data);
+        var Comments = this.state.data.map((comment)=>{
 
         return(
             <div key ={comment.id} className={styles['page-block']}>
                 <div class="fade_up">    
                     <div className={styles['register-block']} >
-                      <h1 dangerouslySetInnerHTML={this.rawMarkup(comment.Title)}></h1>
-                      <p dangerouslySetInnerHTML={this.rawMarkup(comment.Content)}></p>
-                      <button className={styles['btn-register']}><h4>ĐĂNG KÍ HỌC</h4></button>
+                        <h1 dangerouslySetInnerHTML={this.rawMarkup(comment.Title)}></h1>
+                        <p dangerouslySetInnerHTML={this.rawMarkup(comment.Content)}></p>
+                        <button className={styles['btn-register']}><h4>ĐĂNG KÍ HỌC</h4></button>
                     </div>
                 </div>    
            </div>
-             )
+          )
         })
         return(
             <div>{Comments}</div>

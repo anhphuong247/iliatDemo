@@ -101,7 +101,7 @@ h3.event{
 .mobile-nav{
     display: block;
 }
-@media(min-width:1080px){
+@media(min-width:1024px){
 .mobile-nav{
     display: none;
 }

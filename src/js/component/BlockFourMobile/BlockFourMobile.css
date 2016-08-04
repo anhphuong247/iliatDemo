@@ -57,7 +57,7 @@
     text-align: center;
    
 }
-@media(min-width:1080px) {
+@media(min-width:1024px) {
 
 .Three-desktop{
     display: none;

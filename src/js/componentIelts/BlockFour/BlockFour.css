@@ -1,4 +1,10 @@
- .block-content {
+.block-content h1{
+     padding: 18px 20px;
+     background: #e6e6e6;
+     font-family: agencyfontbold;
+     font-size: 3rem;
+}
+.block-content{
      padding: 18px 20px;
      background: #e6e6e6;
 }
@@ -10,7 +16,7 @@
     flex-direction: column;
 }
 @media(min-width:1024px) {
-.block-content {
+.block-content{
     padding-left: 340px;
     padding-top: 50px;
     position: relative;
@@ -18,6 +24,7 @@
 
 .block-content h1{
     font-family: agencyfontbold;
+    font-size: 5.8rem;
 }
 
 .teacher-block{

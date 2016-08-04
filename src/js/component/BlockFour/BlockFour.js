@@ -8,8 +8,8 @@ export default class BlockFour extends React.Component{
         return(
               <div className={styles['block-content']}>
                 <div class="fade_up">
-                  <BlockFourDesktop/>
-                  <BlockFourMobile/>
+                    <BlockFourDesktop/>
+                    <BlockFourMobile/>
                 </div>    
               </div>
            

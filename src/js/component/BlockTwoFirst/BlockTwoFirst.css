@@ -22,7 +22,7 @@
 .teacher-item img{
     margin: 0 auto;
 }
-@media(min-width: 1180px) {
+@media(min-width: 1024px) {
 .teacher-detail{
     padding: 0 20px;
 }

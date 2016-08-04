@@ -24,10 +24,10 @@
      margin-bottom: 20px;
     
 }
-@media(min-width: 1180px) {
-    .contact{
-        margin: 50px 0 0 80px;
-    }
+@media(min-width: 1024px) {
+.contact{
+    margin: 50px 0 0 80px;
+}
 .contact-block h4{
     color: #ffffff;
     font-size: 2.4rem;

@@ -36,7 +36,7 @@
     background: #31c36b;
     color: #ffffff;
 }
-@media(min-width: 1180px){
+@media(min-width: 1024px){
     
 .register-block{
     padding-left: 700px;

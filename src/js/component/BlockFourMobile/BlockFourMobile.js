@@ -36,10 +36,11 @@ export default class BlockFourMobile extends React.Component{
                     <h3 dangerouslySetInnerHTML={this.rawMarkup(comment.Price)}></h3>
                 </div>
                 <div className={styles['price-content']}>
-                        <p dangerouslySetInnerHTML={this.rawMarkup(comment.text)}></p>
+                    <p dangerouslySetInnerHTML={this.rawMarkup(comment.text)}></p>
                 </div>
                 <h4 className={styles['price-mobile']}>
-                    Bạn cần hỗ trợ và tư vấn?</h4>
+                    Bạn cần hỗ trợ và tư vấn?
+                </h4>
                 <button  className={styles['button-register']}>
                     <h4 dangerouslySetInnerHTML={this.rawMarkup(comment.button)}></h4>
                 </button>

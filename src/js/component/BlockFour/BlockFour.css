@@ -2,7 +2,7 @@
      padding: 18px 20px;
      background: #e6e6e6;
 }
-@media(min-width:1080px) {
+@media(min-width:1024px) {
     .block-content {
         padding: 50px 110px;
         position: relative;

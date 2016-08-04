@@ -26,7 +26,7 @@ export default class BlockContentOne extends React.Component{
 	    var md = new Remarkable();
 	    var rawMarkup = md.render(markdown);
 	    return { __html: rawMarkup };
-	}
+	  }
     render(){
       console.log("data:" + this.state.data);
         var Comments = this.state.data.map((comment)=>{

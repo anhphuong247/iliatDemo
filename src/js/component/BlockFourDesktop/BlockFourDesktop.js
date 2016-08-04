@@ -31,7 +31,7 @@ export default class BlockFourDesktop extends React.Component{
         var Comments = this.state.data.map((comment)=>{
 
         return(
-             <div className={styles['Three-desktop']} key={comment.id}>
+            <div className={styles['Three-desktop']} key={comment.id}>
                 <h1>HỌC PHÍ VÀ ƯU ĐÃI</h1>
                 
                 <div className={styles['price-content']}>

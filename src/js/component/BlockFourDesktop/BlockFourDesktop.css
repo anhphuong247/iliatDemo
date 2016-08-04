@@ -1,7 +1,7 @@
 .Three-desktop{
     display: none;
 }
-@media(min-width:1080px) {
+@media(min-width:1024px) {
 
 .price h3 p{
     font-weight: 600;

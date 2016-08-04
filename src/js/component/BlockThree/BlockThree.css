@@ -9,7 +9,7 @@
 .title_where {
     font-weight: 500;
 }
-@media(min-width: 1180px) {
+@media(min-width: 1024px) {
 .block-content {
     margin-left: 340px;
 }

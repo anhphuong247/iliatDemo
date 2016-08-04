@@ -23,13 +23,13 @@
     font-weight: 600;
 }
 
-@media(min-width:1080px) {
+@media(min-width:1024px) {
 .title_where {
     font-size: 2.4rem;
     font-weight: 600;
 }
 .skill-item span p{
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     padding-right: 190px;
 }
 .skill-item strong{

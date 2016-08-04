@@ -13,8 +13,7 @@ export default class BlockContent extends React.Component{
                   <p>
                       LIAT - Sự lựa chọn đầu tiên và tốt nhất đưa bạn đến những trường đại học kinh doanh hàng đầu thế giới!
                   </p>
-                  <BlockContentOne/>
-              
+                  <BlockContentOne/>  
               </div>  
             </div>
         
